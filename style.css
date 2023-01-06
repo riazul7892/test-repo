@@ -1,0 +1,236 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header section style */
+.banner-container{
+    text-align: center;
+    padding: 200px 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.8)), url(images/donation2.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+.main-text{
+    font-size: 80px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.main-description{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.btn-primary{
+    background: #FF5959;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+/* donation section style */
+.donation-container{
+    text-align: center;
+    margin: 150px 300px;
+}
+.donate-today{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.donation-description{
+    font-size: 28px;
+    color: #707070;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.amount-container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.amount{
+    margin: 10px;
+    background-color: #f9f7f7f2;
+    padding: 50px 20px;
+    font-size: 40px;
+    font-weight: 800;
+    align-items: center;
+    color: #909090;
+    border-radius: 5px;
+    
+}
+.amount-two{
+    margin: 10px;
+    background-color: #FFEEEE;
+    border: 3px solid #FF5959;
+    padding: 50px 30px;
+    font-size: 40px;
+    font-weight: 800;
+    align-items: center;
+    color: #FF5959;
+    border-radius: 5px;
+    
+}
+.other-amount .input-amount{
+    width: 700px;
+    margin-top: 50px;
+    
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    color: #bebebe;
+    
+}
+.other-amount hr{
+    
+    width: 700px;
+    margin: auto;
+}
+.btn-donate{
+    background: #FF5959;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 35px;
+}
+/* donation plan style */
+.donate-plan{
+    width: 80%;
+    margin: auto;
+}
+.d-plan{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.flex-container{
+    display: flex;
+    margin: 100px 50px;
+    
+}
+.donate-description{
+    text-align: center;
+    font-size: 25px;
+    color: #707070;
+    width: 60%;
+    margin: auto;
+}
+.donation-type{
+    margin-right: 20px;
+    height: 350px;
+
+    border-radius: 5px;
+    padding: 20px;
+}
+.donation-type img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.donation-type h4{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.donation-type p{
+    font-size: 20px;
+}
+.flex-container #food{
+    background: #EDF5F6;
+}
+.flex-container #shelter{
+    background: #FFEEEE;
+}
+.flex-container #education{
+    background: #FFF4D6;
+}
+/* need section style */
+.need{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.need img{
+    width: 90%;
+    border-radius: 6px;
+    margin-top: 100px;
+
+}
+.contribution{
+    margin: 45px;
+
+}
+.contribution .title{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.contribution .life-description{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+/* update section style */
+.update{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.update .my-update{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.update .update-description{
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+}
+.email-section{
+    margin: 50px 400px;
+    background: #FFF4D6;
+    padding: 100px 100px;
+    border-radius: 5px;
+}
+.email-section .txt-box{
+    padding: 8px 20px;
+    font-size: 20px;
+    color: #909090;
+    border-radius: 5px 0 0 5px;
+    margin: 0;
+    border: none;
+    background: #bebebe;
+}
+.email-section .btn{
+    padding: 8px 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    border: none;
+    background: #FF5959;
+    font-weight: 600;
+}
+/* footer section style */
+footer{
+    background: #0B0D17;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+footer h3{
+    color: #FF5959;
+    font-size: 36px;
+    text-align: center;
+    
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
